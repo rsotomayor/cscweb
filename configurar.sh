@@ -19,10 +19,17 @@ cd dynatree
 tar zxvf ../dynatree-* 
 cd ../;
 
-cd tigra/tigra_hints;unzip tigra_hints.zip;cd ../../
-cd tigra/tigra_menu;unzip tigra_menu.zip;cd ../../
-cd tigra/tigra_scroller;unzip tigra_scroller.zip;cd ../../
-cd tigra/tigra_tree_menu;unzip tigra_tree_menu.zip;cd ../../
+
+mkdir jquery-ui-1.8.21.custom
+cd jquery-ui-1.8.21.custom
+unzip ../jquery-ui-1.8.21.custom.zip
+cd ../;
+
+
+#cd tigra/tigra_hints;unzip tigra_hints.zip;cd ../../
+#cd tigra/tigra_menu;unzip tigra_menu.zip;cd ../../
+#cd tigra/tigra_scroller;unzip tigra_scroller.zip;cd ../../
+#cd tigra/tigra_tree_menu;unzip tigra_tree_menu.zip;cd ../../
 
 distro=`cat /etc/issue | awk '{if (NR==1 && NF >0) print $1}'`
 
