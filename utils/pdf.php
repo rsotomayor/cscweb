@@ -33,7 +33,7 @@ class pdf {
 	}
 
   function generate($output = null, $www = false) {
-    $tmp_dir = "/u/savtec/public_html/rso.cl/apps/tmp/";
+    $tmp_dir = "/u/savtec/public_html/rso.cl/tmp/";
     $tmp_filename = $this->getRandomFilename($tmp_dir);  		
     $tmp_complete_path = $tmp_dir.$tmp_filename; 
     $fp = fopen($tmp_complete_path, "w+");
@@ -58,7 +58,7 @@ class pdf {
   }
 
   function generateFile($output = null, $www = false) {
-    $tmp_dir = "/u/savtec/public_html/rso.cl/apps/tmp/";
+    $tmp_dir = "/u/savtec/public_html/rso.cl/tmp/";
     $tmp_filename = $this->getRandomFilename($tmp_dir);  		
     $tmp_complete_path = $tmp_dir.$tmp_filename; 
     $fp = fopen($tmp_complete_path, "w+");

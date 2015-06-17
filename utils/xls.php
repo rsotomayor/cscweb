@@ -26,7 +26,7 @@ class XLS {
 
   function generate($output)
   {
-    $tmp_dir = "/u/savtec/public_html/rso.cl/apps/tmp/";
+    $tmp_dir = "/u/savtec/public_html/rso.cl/tmp/";
 		$tmp_filename = $this->getRandomFilename($tmp_dir);  		
 		$tmp_complete_path = $tmp_dir.$tmp_filename; 
 		
