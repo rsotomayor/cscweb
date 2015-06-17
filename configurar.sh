@@ -25,6 +25,8 @@ cd jquery-ui-1.8.21.custom
 unzip ../jquery-ui-1.8.21.custom.zip
 cd ../;
 
+unzip phpqrcode-2010100721_1.1.4.zip
+
 
 #cd tigra/tigra_hints;unzip tigra_hints.zip;cd ../../
 #cd tigra/tigra_menu;unzip tigra_menu.zip;cd ../../
