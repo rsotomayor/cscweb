@@ -9,10 +9,11 @@ tar zxvf twitteroauth.tgz
 mv twitteroauth twitteroauth.old
 mv twitteroauth.old/twitteroauth .
 rm -rf twitteroauth.old
-mkdir jpgraph-3.0.7
-cd jpgraph-3.0.7
-tar zxvf ../jpgraph-3.0.7.tar.gz 
-cd ../;
+#mkdir jpgraph-3.0.7
+#cd jpgraph-3.0.7
+#tar zxvf ../jpgraph-3.0.7.tar.gz 
+#cd ../;
+tar zxvf jpgraph-4.0.0.tar.gz
 
 mkdir dynatree
 cd dynatree
