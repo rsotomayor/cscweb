@@ -23,6 +23,8 @@ Example usage: see example.php
 ---------------------------------------------------------------------------------
 */
 
+
+
 define("SRT_ASC",1);
 define("SRT_DESC",-1);
 
@@ -96,6 +98,8 @@ Class arr_multisort{
   //_getColIdx method [PRIVATE]
   function _getColIdx($colName){
     $idx = -1;
+    
+    return $idx;
     for($i=0;$i<count($this->sortDef);$i++){
       $colDef = $this->sortDef[$i];
       if($colDef["colName"] == $colName) $idx = $i;
