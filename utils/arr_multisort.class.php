@@ -99,7 +99,7 @@ Class arr_multisort{
   function _getColIdx($colName){
     $idx = -1;
     
-    return $idx;
+    //~ return $idx;
     for($i=0;$i<count($this->sortDef);$i++){
       $colDef = $this->sortDef[$i];
       if($colDef["colName"] == $colName) $idx = $i;
